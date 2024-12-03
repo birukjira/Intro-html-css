@@ -1,0 +1,62 @@
+/* Colors code
+#FE4A51
+*/
+/* font family 
+> Lato for the logo
+> Playfair Display for the Hero section
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+/* Main style */
+.main-wrapper {
+  width: 100%;
+}
+/* Main Header Style */
+.main-header {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 28px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-header-logo span {
+  color: #fe4a51;
+}
+
+.main-header-nav ul {
+  display: flex;
+  gap: 28px;
+  font-size: 18px;
+  list-style: none;
+}
+
+.main-header-search {
+  border: 1px solid #00000000;
+  border-radius: 24px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.main-header-search:hover,
+.main-header-search:active {
+  border: 1px solid #fe4a51;
+  border-radius: 24px;
+}
+
+.main-header-search input {
+  border: none;
+  outline: none;
+  font-weight: 500;
+  color: #000;
+}
